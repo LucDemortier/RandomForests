@@ -1,0 +1,6 @@
+*.txt
+*.pptx
+AirlineData/*
+TitanicData/*
+.ipynb_checkpoints/*
+.DS_Store
