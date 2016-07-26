@@ -16,6 +16,10 @@ This repository contains the Jupyter notebook used for the analysis, FlightDelay
 
 1. Recompute intrinsic discrepancies.
 
+1. Split data set into training and testing parts, with option to adjust the prevalence in either part.
+
+1. Do a quick preliminary fit of a random forest classifier to the training data set, to make sure things are working as expected.
+
 1. Do grid search to optimize hyper-parameter settings of random forest.
 
 1. Compute confusion matrix of optimal random forest and plot precision, recall, and queue rate versus threshold curves, as well as the ROC, a bar chart of feature importances, and histograms of the classifier output.
